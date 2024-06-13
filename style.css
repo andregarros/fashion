@@ -1,0 +1,44 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FF0099;
+    padding: 50px;
+    color: white;
+}
+#conteudo{
+    padding:80px;
+    width: 60%;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+main div h2{
+    padding-bottom: 20px;
+}
+main div p{
+    font-size: 1.5em;
+    padding-bottom: 20px;
+    
+}
+.perfil img{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 30%;
+    left: 70%;
+    border-radius: 50%;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding-right: 15%;
+    gap: 10px;
+}
+.icons img{
+    gap: 10px;
+}

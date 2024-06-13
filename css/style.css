@@ -76,7 +76,8 @@ nav a:first-child{
 .card-container{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    row-gap: 1rem;
+    gap: 1rem;
+    color: white;
 }
 .card img{
     border-radius: 8px 8px 0 0;
@@ -87,8 +88,7 @@ nav a:first-child{
     background-color: var(--preto);
 }
 .card-content{
-    display: flex;
-    padding: 10rem;
-    text-align: center;
-    flex-direction: column;
+    padding: 3rem;
+    text-align: center;   
 }
+
