@@ -1,0 +1,33 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+:root{
+    --cor-primaria: #f46ac3 ;
+    --cor-secundadria: #3d1c31;
+    --cor-terciaria: #fdace0 ;
+    --branco: white;
+    --preto: black ;
+}
+header{
+    background-color: var(--cor-primaria);
+    padding: 50px;
+}
+form{
+    position: absolute;
+}
+main{
+    position: absolute;
+}
+#Login{
+    display: flex;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    height: 400px;
+    width: 300px;
+}

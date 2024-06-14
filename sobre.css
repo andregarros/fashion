@@ -16,28 +16,21 @@ header{
     font-family: Arial, Helvetica, sans-serif;
     position: relative;
 }
+#conteudo{
+    display: inline-block;
+}
 main div h2{
     padding-bottom: 20px;
 }
 main div p{
     font-size: 1.5em;
     padding-bottom: 20px;
-    
 }
-.perfil img{
+#conteudo img{
+    transform: translate(-50%, -90%);
     width: 400px;
     height: 400px;
-    position: absolute;
-    top: 30%;
-    left: 70%;
     border-radius: 50%;
-}
-.icons{
-    display: flex;
-    align-items: center;
-    justify-content: right;
-    padding-right: 15%;
-    gap: 10px;
 }
 .icons img{
     gap: 10px;
