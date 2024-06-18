@@ -17,18 +17,31 @@ header{
     background-color: var(--cor-primaria);
     padding: 50px;
 }
-
-#Login{
+main{
+    position: relative;
+    min-height: calc(100vh - 12rem);
+}
+section{
     display: flex;
-    flex-direction: column;
     align-items: center;
-    padding: 3rem;
-    background-color: #f46ac3;
+    justify-content: center;
     position: absolute;
     top: 50%;
-    left: 40%;
-    width: 400px;
-    height: 200px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
 }
+#form{
+    background-color: #f46ac3;
+    width: 400px;
+    height: 300px;
+}
+.box-login{
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
 
 
