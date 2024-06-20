@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 :root{
-    --cor-primaria: #f46ac3 ;
+    --cor-primaria: #ff0099 ;
     --cor-secundadria: #3d1c31;
     --cor-terciaria: #fdace0 ;
     --branco: white;
@@ -15,8 +15,8 @@ header{
     background-color: var(--cor-primaria);
     display: flex;
     padding: 1rem;
-    align-items: center;
-    
+    width: 100%;
+    align-items: center;  
 }
 #form-buscar{
     flex-grow: 1;
