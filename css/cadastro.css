@@ -4,7 +4,7 @@
     box-sizing: 0px;
 }
 :root{
-    --cor-primaria: #FF0099 ;
+    --cor-primaria: #f46ac3 ;
     --cor-secundadria: #3d1c31;
     --cor-terciaria: #fdace0 ;
     --branco: white;
@@ -55,20 +55,72 @@ nav{
 nav a:first-child{
     border-right: 1px solid var(--preto) ;
 }
-
 main{
     display: flex;
-    margin: auto;
     justify-content: center;
     align-items: center;
     min-height: calc(100vh - 10rem);
 }
 #cadastro{
-    width: 750px;
+    height: 550px;
+    width: 850px;
     background-color: var(--cor-terciaria);
+    border-radius: 10px;
 }
-#cadastro .input-box{
+#cadastro h1{
+    text-align: center;
+    margin: 20px 20px;
+    color: black;
+}
+#cadastro .wrapper{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+
 }
+.wrapper .input-field{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    margin: 15px 0px;
+}
+input{
+    width: 80%;
+    height: 50px;
+    outline: none;
+    padding-left: 20px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+.butao button{
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+}
+a{
+    color: black;
+}
+.butao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 35px;
+}
+.butao,button,a,p,img{
+    margin-bottom: 10px;
+}
+p{  
+    text-align: center;
+    font-size: 1.3rem;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+

@@ -1,5 +1,5 @@
 :root{
-    --cor-primaria: #f46ac3 ;
+    --cor-primaria: #ff0099 ;
     --cor-secundadria: #3d1c31;
     --cor-terciaria: #fdace0 ;
     --branco: white;
@@ -18,6 +18,9 @@ header{
     padding: 1rem;
     align-items: center;
     
+}
+.titulo h1{
+    color: white;
 }
 #form-buscar{
     flex-grow: 1;
@@ -58,7 +61,7 @@ nav a:first-child{
 }
 #banner{
     width: 100%;
-    background-image: url(https://acdn.mitiendanube.com/stores/001/630/548/products/550e0aaac13acdf1ec1a1158e88634fa-ea6fe03d5b5e5aac4816572836231387-640-0.jpg);
+    background-image: url("../imgs/banner2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 400px;
