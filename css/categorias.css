@@ -12,9 +12,18 @@
 }
 header{
     background-color: var(--cor-primaria);
-    display: flex;
+    justify-content: center;
     padding: 1rem;
-    align-items: center;  
+    align-items: center;
+    
+}
+#nav h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#nav{
+    display: flex;
 }
 #form-buscar{
     flex-grow: 1;
