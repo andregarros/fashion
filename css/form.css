@@ -157,6 +157,7 @@
         justify-content: space-between;
         
     }
+
     #nav h1{
         display: flex;
         align-items: center;
@@ -166,21 +167,6 @@
         display: flex;
     }
     
-    #form-buscar{
-        flex-grow: 1;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        position: relative;
-    }
-    #buscar{
-        flex-grow: 0.75;
-        padding: 0.5rem;
-        border-radius: 5px;
-        text-decoration: none;
-        border: none;
-        outline: none;
-    }
     .icon-link{
         display: flex;
         flex-direction: column;
@@ -212,7 +198,7 @@
     }
     .Login{
        background-color: var(--cor-terciaria);
-       width: 420px;
+       width: 380px;
        padding: 10px 50px;
        border-radius: 30px;
     }
@@ -233,6 +219,7 @@
         outline: none;
         border-radius: 40px;
         padding-left: 15px;
+        font-size: 16px;
     }
     .button{
         display: flex;
@@ -247,7 +234,8 @@
         border: none;
         padding: 15px 40px;
         border-radius: 40px;
-        font-size: 1em;
+        font-size: 1rem;
+
     }
     .ou{
         text-align: center;
