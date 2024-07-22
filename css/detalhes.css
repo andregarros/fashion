@@ -129,31 +129,30 @@ main {
 
 #tamanhobtn {
     display: inline-block;
-    width: 30px; /* Largura do botão */
-    height: 30px; /* Altura do botão */
-    border-radius: 50%; /* Bordas arredondadas para criar o formato circular */
-    background-color: #007bff; /* Cor de fundo do botão */
-    color: #fff; /* Cor do texto */
+    width: 30px; 
+    height: 30px; 
+    border-radius: 50%; 
+    background-color: #007bff; 
+    color: #fff; 
     text-align: center;
-    line-height: 30px; /* Centraliza o texto verticalmente */
-    font-size: 16px; /* Tamanho da fonte */
-    text-decoration: none; /* Remove sublinhado padrão */
-    border: none; /* Remove a borda */
-    cursor: pointer; /* Muda o cursor ao passar o mouse */
+    line-height: 30px; 
+    text-decoration: none; 
+    border: none; 
+    cursor: pointer; 
 }
 #corbuton{
     display: inline-block;
-    width: 30px; /* Largura do botão */
-    height: 30px; /* Altura do botão */
-    border-radius: 50%; /* Bordas arredondadas para criar o formato circular */
-    background-color: var(--cor-primaria); /* Cor de fundo do botão */
-    color: #fff; /* Cor do texto */
+    width: 30px; 
+    height: 30px; 
+    border-radius: 50%; 
+    background-color: var(--cor-primaria); 
+    color: #fff; 
     text-align: center;
-    line-height: 30px; /* Centraliza o texto verticalmente */
-    font-size: 16px; /* Tamanho da fonte */
-    text-decoration: none; /* Remove sublinhado padrão */
-    border: none; /* Remove a borda */
-    cursor: pointer; /* Muda o cursor ao passar o mouse */
+    line-height: 30px; 
+    font-size: 16px; 
+    text-decoration: none; 
+    border: none; 
+    cursor: pointer; 
 }
 
 #cor-btn {
